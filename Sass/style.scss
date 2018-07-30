@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    background: url("../Images/bground.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    .scrolltop {
+        display:none;
+        width:100%;
+        margin:0 auto;
+        position:fixed;
+        bottom:20px;
+        right:10px;	
+    }
+    .scroll {
+        position:absolute;
+        right:20px;
+        bottom:20px;
+        background:#b2b2b2;
+        background:rgba(178,178,178,0.7);
+        padding:20px;
+        text-align: center;
+        margin: 0 0 0 0;
+        cursor:pointer;
+        transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s; 		
+    }
+    .scroll:hover {
+        background:rgba(178,178,178,1.0);
+        transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s; 		
+    }
+    .scroll:hover .fa {
+        padding-top:-10px;
+    }
+    .scroll .fa {
+        font-size:30px;
+        margin-top:-5px;
+        margin-left:1px;
+        transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s; 	
+    }
+
+   //styling the nav
+.nav{
+    background-color: #737373;
+    border-bottom: 1px solid grey;
+    height: 70px;
+    line-height: 60px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    img{
+        width: 209px;
+        display: block;
+        float: left;
+    }
+}
+    
+    //Adding a margin to the left of the icon when displayed
+    .menu{
+        margin: 0 30px 0 0;
+    }
+    //Styling the links
+    .menu a{
+        z-index: 1;
+        font-size: 20px;
+        text-decoration: none;
+        clear: right;
+        color: black;
+        margin: 0 10px;
+        line-height: 60px;
+    }
+    .menu a:hover{
+        color: white;
+    }
+    //Styling the hamburger menu icon
+    label{
+        width: 26px;
+        margin: 0 20px 0 0;
+        font-size: 26px;
+        line-height: 60px;
+        display: none;
+        float: right;
+        color:black;
+    }
+    //Not displaying the checkbox
+    #toggle{
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+    }
+
+    .firstSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: rgba(204, 204, 179, 0.2);;
+        border-radius: 12px;
+        img{
+            width: 300px;
+            border-radius: 12px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        p{
+            font-size: 20px;
+            color: black;
+            text-align: left;
+            margin-right: 5%;
+            margin-top: 20%;
+        }
+    }
+
+
+    .personalDetails{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, auto);
+        font-size: 30px;
+        line-height: 40px;
+        color:#ccc;
+      /*Making the colons straight*/
+      .right{
+        text-align: right;
+        font-style: bold;
+        margin-right: 5%;
+      }
+      }
+
+    .tertiaryEducationContainer{
+        background-color: rgba(204, 204, 179, 0.2);;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 12px;
+    }
+
+    .tertiaryEducation1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        font-size: 25px;
+        color: black;
+        padding-top: 10px;
+        line-height: 35px;
+        .right{
+            text-align: right;
+            font-style: bold;
+            margin-right: 5%;
+          }
+    }
+
+    .tertiaryEducation2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        font-size: 25px;
+        color: black;
+        padding-top: 10px;
+        line-height: 35px;
+        .right{
+            text-align: right;
+            font-style: bold;
+            margin-right: 5%;
+          }
+      }
+
+      .secondaryEducation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        font-size: 25px;
+        color: white;
+        padding-top: 10px;
+        line-height: 35px;
+        .right{
+            text-align: right;
+            font-style: bold;
+            margin-right: 5%;
+          }
+      }
+
+      .workExperience{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4 auto);
+        font-size: 30px;
+        color: #c2c2a3;
+        padding-top: 10px;
+        line-height: 35px;
+        .right{
+            text-align: right;
+            font-style: bold;
+            margin-right: 5%;
+          }
+      }
+
+
+      .references{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        font-size: 30px;
+        color: black;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        line-height: 35px;
+        background-color: rgba(204, 204, 179, 0.2);
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 12px;
+        .right{
+            text-align: right;
+            font-style: bold;
+            margin-right: 5%;
+          }
+    }
+
+
+  
+  @media screen and (max-width: 745px) {
+    body{
+        width: 100%;
+    }
+   .nav{
+    background-color: #737373;
+    border-bottom: 1px solid grey;
+    height: 70px;
+    line-height: 60px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    }
+   .search-container {
+       display: none;
+     }
+
+   label{
+       display: block;
+       cursor: pointer;
+       position: sticky;
+       top: 2%;
+       right: 2%;
+   }
+   .menu{
+       text-align: center;
+       width: 100%;
+       display: none;
+   }
+   .menu a{
+       background-color: white;
+       display: block;
+       border: 1px solid grey;
+       margin: 0;
+       line-height: 70px;
+   }
+   #toggle:checked + .menu{
+       display: block;
+       overflow: hidden;
+   }
+
+   
+
+
+   .firstSection{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    img{
+        width: 300px;
+        border-radius: 12px;
+        margin:0 auto;
+    }
+    p{
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.personalDetails{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, auto);
+    text-align: center;
+    
+    .right{
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5%;
+        margin-right: 0;
+    }
+  }
+  .tertiaryEducationContainer{
+    margin: 0;
+}
+.tertiaryEducation1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    text-align: center;
+    .right{
+        font-weight: bold;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
+.tertiaryEducation2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    text-align: center;
+    .right{
+        font-weight: bold;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
+
+.secondaryEducation{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    text-align: center;
+    .right{
+        font-weight: bold;
+        margin-top: 5%;
+        text-align: center;
+      }
+  }
+
+  .workExperience{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(8, auto);
+    text-align: center;
+    .right{
+        font-weight: bold;
+        margin-top: 5%;
+        text-align: center;
+      }
+  }
+
+
+  .references{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(10, auto);
+      text-align: center;
+      .right{
+        font-weight: bold;
+        margin-top: 5%;
+        text-align: center;
+      }
+  }
+  }
+
+
+
+
+  @media screen and (max-width: 360px){
+      nav{
+          line-height: 60px;
+      }
+      .firstSection{
+          img{
+              width: 250px;
+          }
+      }
+    }
