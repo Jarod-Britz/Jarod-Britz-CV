@@ -94,7 +94,8 @@ label {
 
 h1 {
   text-align: center;
-  color: white; }
+  color: white;
+  padding-top: 70px; }
 
 .firstSection {
   display: grid;
