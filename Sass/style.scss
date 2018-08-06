@@ -63,7 +63,7 @@ body {
     top: 0;
     z-index: 1;
     width: 100%;
-    text-align: center;
+    text-align: right;
     img{
         width: 209px;
         display: block;
@@ -87,6 +87,10 @@ body {
         color: black;
         margin: 0 10px;
         line-height: 60px;
+        padding: 20px;
+        i{
+            padding: 5px;
+        }
     }
     .menu a:hover{
         color: white;
@@ -158,6 +162,7 @@ body {
         margin-left: 5%;
         margin-right: 5%;
         border-radius: 12px;
+        padding: 40px;
     }
 
     .tertiaryEducation1{
@@ -166,7 +171,6 @@ body {
         grid-template-rows: repeat(4, auto);
         font-size: 25px;
         color: black;
-        padding-top: 10px;
         line-height: 35px;
         .right{
             text-align: right;
@@ -181,7 +185,6 @@ body {
         grid-template-rows: repeat(4, auto);
         font-size: 25px;
         color: black;
-        padding-top: 10px;
         line-height: 35px;
         .right{
             text-align: right;
@@ -243,7 +246,7 @@ body {
 
 
   
-  @media screen and (max-width: 745px) {
+  @media screen and (max-width: 1035px) {
     body{
         width: 100%;
     }
