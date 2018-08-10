@@ -215,6 +215,7 @@ h1 {
   grid-template-rows: 1fr; }
   .projects img {
     width: 70%;
+    height: 150px;
     display: block;
     margin: 0 auto;
     padding: 5%; }
