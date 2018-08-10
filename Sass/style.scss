@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Volkhov');
 body {
     margin: 0;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background: url("../Images/bground.jpg");
     background-repeat: no-repeat;
     background-position: center 0;
@@ -124,11 +124,9 @@ body {
         text-align: center;
         margin-left: 20%;
         margin-right: 20%;
-        background-color: rgba(204, 204, 179, 0.2);;
-        border-radius: 12px;
+        background-color: rgba(204, 204, 179, 0.2);
         img{
             width: 300px;
-            border-radius: 12px;
             margin-top: 5%;
             margin-bottom: 5%;
         }
@@ -161,7 +159,6 @@ body {
         background-color: rgba(204, 204, 179, 0.2);;
         margin-left: 5%;
         margin-right: 5%;
-        border-radius: 12px;
         padding: 40px;
     }
 
@@ -236,12 +233,23 @@ body {
         background-color: rgba(204, 204, 179, 0.2);
         margin-left: 5%;
         margin-right: 5%;
-        border-radius: 12px;
         .right{
             text-align: right;
             font-weight: bold;
             margin-right: 5%;
           }
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+       
+        img{
+            width: 70%;
+            display: block;
+            margin: 0 auto;
+            padding: 5%;
+        }
     }
 
 
@@ -386,6 +394,12 @@ body {
         text-align: center;
       }
   }
+
+  .projects{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+  }
   }
 
 
@@ -399,5 +413,11 @@ body {
           img{
               width: 250px;
           }
+      }
+      p{
+          font-size: 18px;
+      }
+      .references{
+          font-size: 20px;
       }
     }
