@@ -320,8 +320,8 @@ body {
     margin-right: 5%;
     img{
         width: 300px;
-        border-radius: 12px;
         margin:0 auto;
+        padding-top: 5%;
     }
     p{
         margin: 0;
@@ -343,13 +343,15 @@ body {
     }
   }
   .tertiaryEducationContainer{
-    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .tertiaryEducation1{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, auto);
     text-align: center;
+    
     .right{
         font-weight: bold;
         margin-top: 5%;
@@ -429,5 +431,8 @@ body {
       }
       .references{
           font-size: 20px;
+      }
+      .copyright{
+          text-align: center;
       }
     }

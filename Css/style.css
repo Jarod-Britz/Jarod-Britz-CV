@@ -277,8 +277,8 @@ h1 {
     margin-right: 5%; }
     .firstSection img {
       width: 300px;
-      border-radius: 12px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-top: 5%; }
     .firstSection p {
       margin: 0;
       text-align: center; }
@@ -295,7 +295,8 @@ h1 {
       margin-right: 0; }
 
   .tertiaryEducationContainer {
-    margin: 0; }
+    margin-left: 5%;
+    margin-right: 5%; }
 
   .tertiaryEducation1 {
     display: grid;
@@ -362,6 +363,9 @@ h1 {
     font-size: 18px; }
 
   .references {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .copyright {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
