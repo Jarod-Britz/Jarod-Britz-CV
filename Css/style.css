@@ -121,7 +121,7 @@ h1 {
     color: black;
     text-align: left;
     margin-right: 5%;
-    margin-top: 20%; }
+    margin-top: 3%; }
 
 .personalDetails {
   display: grid;
@@ -218,6 +218,13 @@ h1 {
     display: block;
     margin: 0 auto;
     padding: 5%; }
+
+.copyright {
+  background-color: #737373;
+  color: black;
+  line-height: 40px; }
+  .copyright p {
+    margin: 0px 0px 0px 3%; }
 
 @media screen and (max-width: 1035px) {
   body {
